@@ -1,0 +1,70 @@
+
+/* ------------------------ Media Queries ---------------------------- */
+
+@media (max-width:500px)
+{
+    html{
+        font-size: 8px;
+    }
+    .nav-bar .nav-items, .nav-bar .logo{
+        float: none;
+        display: block;
+        width: 100%;
+        text-align: center;
+    }
+
+    .header-content .main-heading{
+        display: none;
+    }
+    .row{
+        height: auto;
+        width: 100%;
+    }
+    
+    .row .img-box, .row .text-box{
+        float: none;
+        width: 100%;
+        text-align: center;
+    }
+}
+
+@media (max-width:1370px)
+{
+    .row{
+        height: auto;
+        width: 100%;
+    }
+    
+    .row .img-box, .row .text-box{
+        float: none;
+        width: 100%;
+        text-align: center;
+    }
+
+    .row .img-box{
+        height: 300px;
+    }
+}
+
+@media (max-width:860px)
+{
+    .form-wrapper .company-address, .form-wrapper .form{
+        float: none;
+        width: 100%;
+        margin-bottom: 2rem;
+    }
+}
+
+
+@media (max-width:800px){
+    .box1, .box2, .box3{
+        float: none;
+        width: 100%;
+    }
+}
+
+@media(orientation: landscape) and (max-height:500px){
+    .header{
+        height: 90vmax;
+    }
+}
